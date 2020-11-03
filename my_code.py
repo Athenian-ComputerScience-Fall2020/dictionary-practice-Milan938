@@ -7,7 +7,7 @@ def make_dict():
     keys = ['Ten', 'Twenty', 'Thirty']
     values = [10, 20, 30]
     '''
-    currency = {'Ten': '10', 'Twenty': '20', 'Thirty': '30'}         
+    currency = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}         
     # complete this line
 
     return currency
@@ -50,5 +50,5 @@ def access_key():
 if __name__ == '__main__':
     # Test your code with this first
     # Change the function to test different sections
-    print(access_key())
+    print(merge_dict())
 
